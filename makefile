@@ -4,6 +4,11 @@ BIN_DIR = $(TOP_DIR)/bin
 
 export TOP_DIR OBJ_DIR BIN_DIR
 
+CC = gcc
+CFLAGS = -m32 
+export CC CFLAGS
+
+
 SUB_DIR= system loader
 
 
